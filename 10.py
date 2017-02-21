@@ -80,3 +80,4 @@ def createAndGetBot(bots,name):
 		return bots[name]
 input = format(input)
 bots = runBots(input)
+print(bots["output 0"].value * bots["output 1"].value * bots["output 2"].value) 
